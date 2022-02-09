@@ -1,11 +1,16 @@
+@font-face {
+	font-family: '20 Kopeek Book';
+	src: url(../font/20-kopeek-book.otf);
+}
+
+body {
+	font-family: '20 Kopeek Book';
+}
+
 .main_block {
 	width: 100%;
 	background: url(../images/main_bg.png);
 	background-size: cover;
-}
-
-.h-100vh {
-	/* height: 100vh; */
 }
 
 .container {
@@ -94,4 +99,139 @@ h1 {
 	padding: 23px 47px;
 	border-radius: 40px;
 	margin-right: 20px;
+}
+
+.padd-top {
+	padding-top: 80px;
+}
+
+.img-text {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+h2 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 34px;
+	line-height: 110%;
+}
+
+.img_green {
+	width: 50%;
+}
+
+.banks {
+	width: 100%;
+}
+
+.form-style {
+	width: 45%;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 140%;
+}
+
+.paragraph {
+	margin: 0;
+}
+
+.basic_elements {
+	display: flex;
+	justify-content: space-between;
+}
+
+h3 {
+	padding-top: 150px;
+	padding-bottom: 40px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 55px;
+	line-height: 100%;
+	margin-bottom: 40px;
+}
+
+.numbers {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 55px;
+	line-height: 100%;
+	padding-right: 8px;
+}
+
+.tex_2 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 140%;
+}
+
+.check {
+	display: flex;
+}
+
+.check:nth-child(1) {
+	width: 11%;
+}
+
+.check:nth-child(2) {
+	width: 13%;
+}
+
+.check:nth-child(3) {
+	width: 15%;
+}
+
+.check:nth-child(4) {
+	width: 11%;
+}
+
+.check:nth-child(5) {
+	width: 27%;
+}
+
+.padd-top_3 {
+	width: calc(66% + 13px);
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.padd_left {
+	padding-left: 13px;
+}
+
+h4 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	line-height: 110%;
+	padding: 120px 0 15px 50%;
+	margin: 0;
+}
+
+.img_styl {
+	width: 50%;
+}
+
+.text_styl {
+	width: 43%;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 140%;
+}
+
+.Blue {
+	padding: 11px 7px 11px 13px;
+	color: #fff;
+	background: #2b59c3;
+	border-radius: 5px;
+}
+
+.link {
+	color: #fff;
+	text-decoration: none;
 }
