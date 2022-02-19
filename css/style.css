@@ -426,3 +426,135 @@ button {
 	line-height: 140%;
 	color: #181818;
 }
+
+.tabl {
+	display: flex;
+	justify-content: space-between;
+}
+
+.img_tabl_text {
+	width: 34%;
+	padding-right: 100px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 110%;
+}
+
+.text_blok {
+	width: 66%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 30px;
+}
+
+.text_in {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 19px;
+	color: #181818;
+}
+
+.text_p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 140%;
+	color: #181818;
+}
+
+.advantage {
+	width: 100%;
+	background: url(../images/advantage.png);
+	background-size: cover;
+	color: #fff;
+	padding-bottom: 80px;
+}
+
+.advantage h3 {
+	padding-top: 282px;
+}
+
+.contact_form {
+	padding-top: 150px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact_form input {
+	display: block;
+}
+
+.contact_form form {
+	width: 50%;
+}
+
+#lastname,
+#lasttelephone {
+	width: 100%;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+#scales {
+	display: inline;
+}
+
+.form_btn {
+	display: block;
+	margin-top: 48px;
+	margin-bottom: 127px;
+	margin-left: 0;
+}
+
+.application {
+	display: block;
+}
+
+.mr_bt {
+	margin-bottom: 30px;
+}
+
+.tel_1 {
+	display: block;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 110%;
+	color: #181818;
+	margin-bottom: 15px;
+}
+
+.smi_block {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 30px;
+}
+
+.smi {
+	height: fit-content;
+	background: #2b59c3;
+	border-radius: 10px;
+	padding: 6px 0 16px 8px;
+}
+
+.smi p {
+	margin: 0;
+	padding-bottom: 25px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 140%;
+	color: #fff;
+}
+
+.smi a {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 140%;
+	color: #fff;
+	text-decoration: none;
+}
